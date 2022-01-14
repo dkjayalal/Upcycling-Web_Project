@@ -94,5 +94,21 @@ nav .fab {
     margin-bottom: 1%;
     color: #c8fff2;
 }
-
+.hero_btn {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.hero_btn:hover{
+    border:1px soild #24f8c7;
+    background: #24f8c7;
+    transition: 1s;
+}
 
