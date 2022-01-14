@@ -94,6 +94,12 @@ nav .fab {
     margin-bottom: 1%;
     color: #c8fff2;
 }
+.text_box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #ffff;
+}
+
 .hero_btn {
     position: relative;
     display: inline-block;
