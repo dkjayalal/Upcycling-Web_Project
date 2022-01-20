@@ -118,6 +118,21 @@ nav .fab {
     transition: 1s;
 }
 
+nav .fa{
+     display: none;
+ }
+ /*Responsive Navbar Start*/
+ @media(max-width :70px ){
+     .text-box #headtext
+     font-size: 50px;
+ }
+ .text-box #headtext{
+     font-size: 23px;
+ }
+ .nav-links ul li{
+     display :  block;
+ }
+
 /*About section Start*/
 
 .Sub-header {
