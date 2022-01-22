@@ -11,7 +11,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#517e86c4, #949fdf1a), url(images/2.jpg);
+    background-image: linear-gradient(#6298a1c4, #949fdf1a), url(images/image4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -58,7 +58,7 @@ nav .fab {
 .nav-links ul li a{
    text-decoration: none;
    color: #ffff;
-   font-size: 18px;
+   font-size: 14px;
 }
 .nav-links ul li::after {
    content: '';
@@ -117,6 +117,21 @@ nav .fab {
     background: #24f8c7;
     transition: 1s;
 }
+
+nav .fa{
+     display: none;
+ }
+ /*Responsive Navbar Start*/
+ @media(max-width :70px ){
+     .text-box #headtext
+     font-size: 50px;
+ }
+ .text-box #headtext{
+     font-size: 23px;
+ }
+ .nav-links ul li{
+     display :  block;
+ }
 
 /*About section Start*/
 
