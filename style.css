@@ -202,7 +202,29 @@ nav .fa{
 
 }
 
-.
+.avtivity-col{
+    flex-basis: 31%;
+    background: #fff3ff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 00.5s;
+
+}
+
+.avtivity-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.1;
+}
+
+.avtivity-col :hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+
 
 
 
