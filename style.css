@@ -149,14 +149,60 @@ nav .fa{
  .nav-links ul{
      padding : 30px;
  }
-}
+ }
 /* Responsive Navbar Section End */
 
 
 /*home page scrolling started*/
-.activities{
+.activites{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.PageBlock{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.verticalline{
+    width: 2px;
+    height: 100px;
+    background: #24f8c7;
+    margin: 0 auto 40px;
+}
+
+.clear{
+    clear: both; 
+}
+
+.h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 15px 0;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #24f8c7;
+}
+
+.p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+
 
 
 /*home page scrolling end*/
