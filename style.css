@@ -153,8 +153,8 @@ nav .fa{
 /* Responsive Navbar Section End */
 
 
-/*home page scrolling started*/
-.activites{
+/*activities section started*/
+.activities{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -167,18 +167,18 @@ nav .fa{
     padding: 0px;
 }
 
-.verticalline{
-    width: 2px;
+.verticalLine{
+    width: 4px;
     height: 100px;
     background: #24f8c7;
     margin: 0 auto 40px;
 }
 
-.clear{
+.Clear{
     clear: both; 
 }
 
-.h1{
+h1{
     font-size: 45px;
     font-weight: 800;
     margin: 15px 0;
@@ -187,7 +187,7 @@ nav .fa{
     color: #24f8c7;
 }
 
-.p{
+p{
     color: #777;
     font-size: 14px;
     font-weight: 300;
@@ -196,13 +196,13 @@ nav .fa{
 }
 
 .row{
-    margin: 5%;
+    margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 
 }
 
-.avtivity-col{
+.activity-col{
     flex-basis: 31%;
     background: #fff3ff;
     border-radius: 10px;
@@ -213,20 +213,20 @@ nav .fa{
 
 }
 
-.avtivity-col h3{
+.activity-col h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
     line-height: 1.1;
 }
 
-.avtivity-col :hover{
+.activity-col :hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 
 }
 @media(max-width: 700px)
 {
-    .verticalline{
+    .verticalLine{
         width: 1px;
 
     }
@@ -244,7 +244,7 @@ nav .fa{
 
 
 
-/*home page scrolling end*/
+/*activities section end*/
 
 
  /* About Upcycling Section Start */
