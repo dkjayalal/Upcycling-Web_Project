@@ -22,10 +22,13 @@ nav{
 }
 nav .logo {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 50px;
     color: rgb(242, 230, 243);
     font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 nav .fab {
     font-size: 42px;
     /* color: #5236f4; */
