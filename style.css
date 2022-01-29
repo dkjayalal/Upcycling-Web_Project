@@ -221,7 +221,7 @@ p{
 }
 
 .activity-col :hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow:0 0 20px 0px  rgba(22, 22, 22, 0.2);
 
 }
 @media(max-width: 700px)
