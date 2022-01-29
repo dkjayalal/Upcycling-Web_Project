@@ -276,6 +276,27 @@ p{
      padding: 30px 2px;
  }
 
+ .about-col img {
+     width: 100%;
+ }
+
+ .about-col h1 {
+     padding-top: .0;
+ }
+
+ .about-col p {
+     padding: 15px 0 25px;
+ }
+
+ .btn {
+     border: 1px solid #5236f4;
+     background: transparent;
+     color: #5236f4;
+ }
+
+ .btn:hover {
+     color: #fff;
+ }
 
 
 
