@@ -332,7 +332,15 @@ p{
     box-shadow: 0 0 20px 10px rgba(54, 58 , 121,0.2);
 }
 
+.opprtunities-col p{
+    padding: 0;
+}
 
+.opprtunities-col h3{
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
 
 
 
