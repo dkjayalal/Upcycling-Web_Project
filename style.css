@@ -244,6 +244,31 @@ p{
 }
 /*activities section end*/
 
+.products{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.products-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+/*products section Started*/
+
+
+
+
+
+
+
+/*products section End*/
+
 /* create home any section for spaces.........*/ 
 
 
