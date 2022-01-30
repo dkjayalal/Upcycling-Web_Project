@@ -32,7 +32,7 @@ nav .logo {
 nav .fab {
     font-size: 42px;
     /* color: #5236f4; */
-    color: #24f8c7;
+    color: #4285f4;;
 }
 
 .nav-links{
@@ -224,7 +224,7 @@ p{
 }
 
 .activity-col :hover{
-    box-shadow:0 0 20px 0px  rgba(22, 22, 22, 0.2);
+    box-shadow:0 0 20px 0px  rgba(54, 58, 121, 0.2);
 
 }
 @media(max-width: 700px)
@@ -244,6 +244,9 @@ p{
 }
 /*activities section end*/
 
+
+/*products section Started*/
+
 .products{
     width: 80%;
     margin: auto;
@@ -253,21 +256,90 @@ p{
 }
 
 .products-col{
+    position: relative;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     overflow: hidden;
 }
 
-/*products section Started*/
+.products-col img{
+    width: 100%;
+    display: block;
+}
 
+.layer{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
 
+.layer:hover{
+    background: #24f8c741;
+}
 
+.layer h3{
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
 
+}
 
-
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
 
 /*products section End*/
+
+
+/*opprtunities section staretd*/
+
+.opprtunities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.opprtunities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+
+.opprtunities-col img{
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 10px;
+    display: block;
+}
+
+.opprtunities-col img:hover{
+    box-shadow: 0 0 20px 10px rgba(54, 58 , 121,0.2);
+}
+
+
+
+
+
+
+
+/*opprtunities section end*/
+
 
 /* create home any section for spaces.........*/ 
 
