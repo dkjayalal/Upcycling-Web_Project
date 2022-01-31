@@ -342,12 +342,59 @@ p{
     margin-bottom: 15px;
 }
 
-
-
-
-
 /*opprtunities section end*/
 
+
+
+/*testimonials secton started*/
+
+.testimonials{
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonials-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 5%;
+    background: #fff3f3;
+    padding: pointer;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img{
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.testimonials-col p{
+    padding: 0;
+
+}
+.testimonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonials-col .fa{
+    color: #24f8c7;
+}
+
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+
+/*testimonials section end*/
 
 /* create home any section for spaces.........*/ 
 
