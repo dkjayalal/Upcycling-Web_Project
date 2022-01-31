@@ -117,10 +117,10 @@ nav .fa{
  }
  /*Responsive Navbar Start*/
  @media(max-width :70px ){
-     .text-box h2{
+     .text_box h2{
      font-size: 50px;
  }
- .text-box #headtext{
+ .text_box #headtext{
      font-size: 23px;
  }
  .text_box p{
