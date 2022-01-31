@@ -116,16 +116,19 @@ nav .fa{
      display: none;
  }
  /*Responsive Navbar Start*/
- @media(max-width :70px ){
+ @media(max-width :700px ){
      .text_box h2{
      font-size: 50px;
+ }
+ nav.logo{
+     font-size:15px;
  }
  .text_box #headtext{
      font-size: 23px;
  }
  .text_box p{
      margin: 10px 40px;
-     font-size: 20px;
+     font-size: 15px;
  }
  .nav-links ul li{
      display :  block;
