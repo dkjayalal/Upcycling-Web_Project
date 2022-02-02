@@ -690,14 +690,14 @@ hr {
     box-sizing: border-box;
 }
 
+.section{
+    display: block;
+}
+
 .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
-
-
-
-
 
 /*Sustainability Page End*/
