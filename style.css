@@ -171,7 +171,7 @@ nav .fa{
 }
 
 .PageBlock{
-    position: relative;
+    position:relative;
     margin: 0px;
     padding: 0px;
 }
@@ -193,7 +193,7 @@ h1{
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #24f8c7;
+    color: #f87924;
 }
 
 p{
@@ -230,7 +230,7 @@ p{
 }
 
 .activity-col :hover{
-    box-shadow:0 0 20px 0px  rgba(54, 58, 121, 0.2);
+    box-shadow:0 0 0px rgba(54, 58, 121, 0.2);
 
 }
 @media(max-width: 700px)
@@ -612,3 +612,41 @@ hr {
 }
 
 /*Blog Page end*/
+
+
+/*Sustainability Page Started*/
+
+.sustainability{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sdg_goal{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.sdg_goal img{
+    width:100%;
+    transition: 0.5s;
+    border-radius: 10px;
+    display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/*Sustainability Page End*/
