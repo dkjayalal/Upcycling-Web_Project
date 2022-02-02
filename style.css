@@ -612,3 +612,36 @@ hr {
 }
 
 /*Blog Page end*/
+
+
+/*Sustainability Page Started*/
+
+.sustainability{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80%;
+}
+
+.sdg_goal{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.sdg_goal img{
+    width:100%;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*Sustainability Page End*/
