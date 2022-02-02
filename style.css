@@ -637,6 +637,16 @@ hr {
     display: block;
 }
 
+.sdg_goal h3{
+    text-align:left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.sdg_goal p{
+    padding: 0;
+}
+
 *{
     margin: 0;
     padding: 0;
