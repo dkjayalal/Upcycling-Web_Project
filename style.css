@@ -226,6 +226,7 @@ p{
     font-weight: 600;
     margin: 10px 0;
     line-height: 1.1;
+    
 }
 
 .activity-col :hover{
@@ -284,7 +285,7 @@ p{
 }
 
 .layer:hover{
-    background: #24f8c741;
+    background: #f04b4c;
 }
 
 .layer h3{
