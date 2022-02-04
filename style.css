@@ -16,17 +16,10 @@
 
 nav{
 	display:flex;
-	padding: 6%;
+	padding:2% 6%;
 	justify-content: space-between;
 	align-items: center;
-    overflow: hidden;
-    background-color: #b8c7df;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
- 
-   
+    /*background-color: #f0f0f0;*/
 }
 nav .logo {
     text-decoration: none;
@@ -42,16 +35,12 @@ nav .fab {
     color: #4285f4;;
 }
 
-.nav-links{
-    float: left;
-    
-    color: #191970;
+.nav-links{   
     text-align: right;
-    padding: 14px;
-    text-decoration: none;
-    flex: 1;
    
+    flex: 1;
 }
+
 
 .nav-links ul li{
    display:inline-block;
@@ -59,13 +48,11 @@ nav .fab {
    padding:8px 12px;
    position: relative;
    text-transform: uppercase;
-   padding-right:2%;
-   padding-top:2%;
 }
 .nav-links ul li a{
    text-decoration: none;
-   color: #ffff;
-   font-size: 14px;
+   color: #213159;
+   font-size: 18px;
 }
 .nav-links ul li::after {
    content: '';
@@ -407,7 +394,7 @@ p{
 }
 
 .testimonials-col .fa{
-    color: #24f8c7;
+    color: #f04b4c;
 }
 
 @media(max-width: 700px){
