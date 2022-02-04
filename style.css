@@ -285,7 +285,8 @@ p{
 }
 
 .layer:hover{
-    background: #f04b4c;
+    background:#f04b4c;
+    background:
 }
 
 .layer h3{
@@ -346,6 +347,7 @@ p{
     text-align: left;
     margin-top: 16px;
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 /*opprtunities section end*/
