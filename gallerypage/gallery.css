@@ -57,6 +57,21 @@ nav .items .item:hover{
     padding: 7px;
     width: calc(100% / 4);
 }
+.gallery .image.hide{
+    display:none ;
+}
+
+.gallery .image.show{
+   animation: animate 0.4s ease;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .gallery .image span{
     display: flex;
     width: 100%;
@@ -73,6 +88,7 @@ nav .items .item:hover{
 .gallery .image:hover img{
     transform: scale(1.1);
 }
+
 
 
 @media(max-width: 1000px){
