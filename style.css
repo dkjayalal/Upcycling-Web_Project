@@ -496,7 +496,7 @@ hr {
 
 
 
- /* About us Section Start */
+ /* About  Section Start */
 
  .sub-header {
      height: 50vh;
@@ -513,7 +513,7 @@ hr {
     margin-top: 10px;
  }
 
- .about-us {
+ .about {
      width: 80%;
      margin: auto;
      padding-top: 80px;
@@ -547,7 +547,7 @@ hr {
      color: #fff;
  }
 
-
+/* About Section End */
 
 
 
