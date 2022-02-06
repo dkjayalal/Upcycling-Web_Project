@@ -469,7 +469,7 @@ p{
 }
 
 .footer a:hover {
-    color: #24f8c7;
+    color: #04032e;
 }
 
 .icons .fab {
@@ -480,15 +480,16 @@ p{
 }
 
 .icons .fab:hover{
-    color: #24f8c7;
+    color: #04032e;
 }
 
 .fa-heart {
-    color: #24f8c7;
+    color: #949fdf;
 }
 
 hr {
-    border: 0.01px solid #7777772a;
+    color: #04032e;
+    border: 0.01px solid ;
 }
 
 /* Footer Section End */
@@ -575,7 +576,7 @@ hr {
 }
 
 .blog-left h5{
-    color: #24f8c7;
+    color: #04032e;
     font-weight: bolder;
     margin: 5px 0;
     cursor: pointer;
@@ -591,7 +592,7 @@ hr {
 }
 
 .blog-right h3{
-    background: #24f8c7;
+    background: #04032e;
     color: #fff;
     padding: 7px 0;
     font-size: 16px;
@@ -611,7 +612,7 @@ hr {
 }
 
 .blog-right div:hover{
-    color: #24f8c7;
+    color: #04032e;
     cursor: pointer;
 }
 
@@ -675,7 +676,7 @@ hr {
 }
 
 .sdg_goal img:hover{
-    box-shadow: 0 0 20px 10px #FFA500;
+    box-shadow: 0 0 20px 10px #04032e;
 }
 
 .sdg_goal h3{
