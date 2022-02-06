@@ -8,7 +8,6 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#3d6098, #e7e7e7), url(images/diy.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,6 +27,7 @@ nav .logo {
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(images/batta1.jpg);
 }
 
 nav .fab {
@@ -93,17 +93,19 @@ nav .fab {
 .text_box p {
     margin: 10px 0 40px;
     font-size: 18px;
-    color: #ffff;
+    color: #213159;
+    font-weight: 510px;
 }
 
 .hero_btn {
     position: relative;
     display: inline-block;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #213159;
+    border: 1px solid #213159;
     border-radius: 5px;
     padding: 12px 34px;
-    font-size: 13px;
+    font-weight: 200px;
+    font-size: 15px;
     background: transparent;
     cursor: pointer;
     text-decoration: none;
@@ -488,8 +490,7 @@ p{
 }
 
 hr {
-    color: #04032e;
-    border: 0.01px solid ;
+    border: 0.01px solid;
 }
 
 /* Footer Section End */
@@ -502,7 +503,7 @@ hr {
  /* About  Section Start */
 
  .sub-header {
-     height: 50vh;
+     height: 40vh;
      width: 100%;
      background-position: center;
      background-size: cover;
@@ -517,7 +518,7 @@ hr {
  .about {
      width: 80%;
      margin: auto;
-     padding-top: 80px;
+     padding-top: 0px;
      padding-bottom: 50px;
  }
 
@@ -658,7 +659,7 @@ hr {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 0px;
 }
 
 .sdg_goal{
