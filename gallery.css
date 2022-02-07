@@ -44,7 +44,7 @@ nav .items{
 nav .items .item{
     padding: 7px 25px;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 600;
     color: #000000ad;
     border: 2px solid #000000ad;
     border-radius: 50px;
@@ -67,7 +67,7 @@ nav .items .item:hover{
 
 .gallery .image{
     padding: 7px;
-    width: calc(100% / 4);
+    width: calc(100% / 6);
 }
 .gallery .image.hide{
     display:none ;
@@ -84,6 +84,70 @@ nav .items .item:hover{
         transform: scale(1);
     }
 }
+
+.preview-box{
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: #fff;
+    max-width:550px;
+    width: 100%;
+    z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    padding: 0 5px 5px 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  }
+  .preview-box.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.3s ease;
+  }
+  .preview-box .details{
+    padding: 13px 15px 13px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .details .title{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .details .title p{
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .details .icon{
+    color: #007bff;
+    font-style: 22px;
+    cursor: pointer;
+  }
+  .preview-box .image-box{
+    width: 100%;
+    display: flex;
+  }
+  .image-box img{
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+  }
+  .shadow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: none;
+    background: rgba(0,0,0,0.4);
+  }
+  .shadow.show{
+    display: block;
+  }
+
 .gallery .image span{
     display: flex;
     width: 100%;
