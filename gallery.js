@@ -1,6 +1,6 @@
 //selecting all required elements
 const filterItem = document.querySelector(".items");
-const filterImg = document.querySelectorAll(".image");
+const filterImg = document.querySelectorAll(".gallery .image");
 
 window.onload = ()=>{ //once window loarded
     filterItem.onclick = (selectedItem)=>{ //when user clicked on filterItem div
@@ -21,4 +21,32 @@ window.onload = ()=>{ //once window loarded
             });
             }
         }
-    }
+        for (let i = 0; i < filterImg.length; i++) {
+            filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
+          }
+        }
+        
+        //fullscreen image preview function
+        //selecting all required elements
+        const previewBox = document.querySelector(".preview-box"),
+        categoryName = previewBox.querySelector(".title p"),
+        previewImg = previewBox.querySelector("img"),
+        closeIcon = previewBox.querySelector(".icon"),
+        shadow = document.querySelector(".shadow");
+        
+        function preview(element){
+         
+          document.querySelector("body").style.overflow = "hidden";
+          let selectedPrevImg = element.querySelector("img").src; 
+          let selectedImgCategory = element.getAttribute("data-name"); 
+          previewImg.src = selectedPrevImg; 
+          categoryName.textContent = selectedImgCategory; 
+          previewBox.classList.add("show"); 
+          shadow.classList.add("show"); 
+          closeIcon.onclick = ()=>{ 
+            previewBox.classList.remove("show");
+            shadow.classList.remove("show"); 
+            document.querySelector("body").style.overflow = "auto"; 
+          }
+        }
+        
