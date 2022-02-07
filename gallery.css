@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&diplay=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /*background: #EDFBFF;*/
+
+}
+
+.wrapper nav{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70x;
+}
+h3{
+    /*text-align: center;*/
+    margin-top: 50px;
+    color: #04032e;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.wrapper{
+    margin: 100px auto;
+    max-width: 1100px;
+}
+
+nav .items{
+    /*display: flex;*/
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav .items .item{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #000000ad;
+    border: 2px solid #000000ad;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav .items .active,
+nav .items .item:hover{
+    color:#fff ;
+    background: #000000;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.gallery .image{
+    padding: 7px;
+    width: calc(100% / 4);
+}
+.gallery .image.hide{
+    display:none ;
+}
+
+.gallery .image.show{
+   animation: animate 0.4s ease;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.gallery .image span{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.gallery .image img{
+    width: 100%;
+    height: 80%;
+    vertical-align: middle;
+    transition: all0.3s ease;
+}
+
+.gallery .image:hover img{
+    transform: scale(1.1);
+}
+
+.btn{
+    padding: 10px 550px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+ a{
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: 550px;
+    font-size: 16px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    background: #000000;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: rgba(255,255,255,1);  
+}
+
+a span{
+    display: block;
+    position: absolute;
+    background:#5236f4;;
+}
+a span:nth-child(1){
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+a:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+
+a span:nth-child(2){
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+a span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+a:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+@media(max-width: 1000px){
+    .gallery .image{
+        width: calc(100% / 3);
+    }
+}
+
+@media(max-width: 800px){
+    .gallery .image{
+        width: calc(100% / 2);
+    }
+}
+
+@media(max-width: 700px){
+    nav .items{
+        max-width: 600px;  
+    }
+    nav .items .item{
+        padding: 7px 15px;
+    }
+}
+
+@media(max-width: 600px){
+    nav .items{
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    nav .items .item{
+       margin: 5px;
+    }
+    .gallery .image{
+        width: 100%;
+    }
+}
