@@ -88,10 +88,10 @@ nav .items .item:hover{
 .preview-box{
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%) scale(0.9);
     background: #fff;
-    max-width: 700px;
+    max-width: 550px;
     width: 100%;
     z-index: 5;
     opacity: 0;
