@@ -91,7 +91,7 @@ nav .items .item:hover{
     left: 40%;
     transform: translate(-50%, -50%) scale(0.9);
     background: #fff;
-    max-width: 550px;
+    max-width:550px;
     width: 100%;
     z-index: 5;
     opacity: 0;
