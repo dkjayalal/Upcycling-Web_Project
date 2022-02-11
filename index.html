@@ -15,7 +15,7 @@
         <!--Created to Upcycleit -->
         
         <section class="header">
-            <nav>
+            <nav id="navbar">
                 
                 <a href="index.html" class="logo">
                     
@@ -282,8 +282,29 @@
      </section>
        <!-- Footer Section End -->
 
+<script type="text/javascript">
+    var lastScrollTop=0;
+    navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function()
+    {
+        var scrollTop = window.pageYOffset||document
+        .documentElement.scrollTop;
+if(scrollTop>lastScrollTop)
+{
+    navbar.style.top="-80px";
+}
+else{
+    navbar.style.top="0";
+}
+lastScrollTop=scrollTop;
+    })
 
-     <script src="script.js"></script>
+
+</script>
+
+     <script src="script.js">
+     </script>
+
 
      </body>
 </html>       
