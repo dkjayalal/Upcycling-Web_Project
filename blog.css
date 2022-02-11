@@ -1,0 +1,60 @@
+:root{
+    --playfair : 'Playfair Display',serif;
+    --Quicksand : 'Quicksand' ,sans-serif;
+    --Roboto:'Roboto',sans-serif;
+    --dark:#0d4857;
+    --exdark:#225885;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:var(--Quicksand) ;
+
+}
+
+body
+{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0  1.2rem;
+}
+
+/*header*/
+
+header{
+    min-height: 100vh;
+    background-image:linear-gradient(#8bc4cec4, #5768c71a), url(images/bg4.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.2rem;
+}
+
+
+.navbar-brand
+{
+    color: rgb(106, 129, 150);
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration:none;
+    font-family: var(--playfair);
+    letter-spacing: 1px;
+
+}
