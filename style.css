@@ -11,6 +11,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    background-image:linear-gradient(#8bc4cec4, #5768c71a), url(images/image4.jpg);
+
 }
 
 nav{
@@ -23,7 +25,7 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color: rgb(242, 230, 243);
+    color: rgb(214, 196, 216);
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -51,7 +53,7 @@ nav .logo{
 }
 .nav-links ul li a{
    text-decoration: none;
-   color: #213159;
+   color: #384975;
    font-size: 18px;
 }
 .nav-links ul li::after {
@@ -142,7 +144,7 @@ nav .fa{
  }
  .nav-links{
      position:fixed;
-     background:#47b19efa;
+     background:#33d7ddfa;
      height:100vh;
      width:200px;
      top:0;
@@ -183,7 +185,7 @@ nav .fa{
 .verticalLine{
     width: 4px;
     height: 100px;
-    background: #191970;
+    background: #1ab3ce;
     margin: 0 auto 40px;
 }
 
