@@ -182,8 +182,8 @@ section{
 .container
 {
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.1rem;
     background: #eee;
 }
 
