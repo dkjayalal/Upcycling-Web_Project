@@ -242,7 +242,14 @@ section{
 }
 
 
-/*please enter upper css  code ...............................*/
+/* enter to box css*/
+
+.container .sidebar .box .about h3{
+    color:var(--orange);
+    font-size: 2rem;
+}
+
+/* enter to footer css*/
 
 .footer{
     display: flex;
