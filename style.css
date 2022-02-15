@@ -1,0 +1,671 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    /*background:linear-gradient(#a0675c,#5c261d) ,url(images/back.jpg);*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image:linear-gradient(#8bc4cec4, #5768c71a), url(images/image4.jpg);
+
+}
+
+nav{
+	display:flex;
+	padding:2% 6%;
+	justify-content: space-between;
+	align-items: center;
+    height: 80px;
+}
+nav .logo {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(214, 196, 216);
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("images/Logo.jpg");
+}
+
+nav .logo{
+    font-size: 42px;
+    color: #4285f4;;
+}
+
+.nav-links{   
+    text-align: right;
+   
+    flex: 1;
+}
+
+
+.nav-links ul li{
+   display:inline-block;
+   list-style:none;
+   padding:8px 12px;
+   position: relative;
+   text-transform: uppercase;
+}
+.nav-links ul li a{
+   text-decoration: none;
+   color: #384975;
+   font-size: 18px;
+}
+.nav-links ul li::after {
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #213159;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.text_box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.text_box h2 {
+    font-size: 90px;
+    font-weight: 900;
+    color: #213159;
+}
+.text_box #headtext {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    color: #3d6098;
+}
+.text_box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #213159;
+    font-weight: 510px;
+}
+
+.hero_btn {
+    position: relative;
+    display: inline-block;
+    color: #213159;
+    border: 1px solid #213159;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-weight: 200px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.hero_btn:hover{
+    border:1px soild #f04b4c;
+    background: #f04b4c;
+    transition: 1s;
+}
+
+nav .fa{
+     display: none;
+ }
+ /*Responsive Navbar Start*/
+ @media(max-width :700px ){
+
+
+     .text_box h2{
+
+     font-size: 50px;
+ }
+ nav.logo{
+     font-size:15px;
+ }
+ .text_box #headtext{
+     font-size: 23px;
+ }
+ .text_box p{
+     margin: 10px 40px;
+     font-size: 15px;
+ }
+ .nav-links ul li{
+     display :  block;
+ }
+ .nav-links{
+     position:fixed;
+     background:#33d7ddfa;
+     height:100vh;
+     width:200px;
+     top:0;
+     right:-200px;
+     text-align:left;
+     z-index:2;
+     transition:1.2s;
+
+ }
+ nav .fa{
+     display:block;
+     color:rgb(58, 27, 196);
+     margin: 10px;
+     font-size:22px;
+     cursor:pointer;
+ }
+ .nav-links ul{
+     padding : 30px;
+     }
+ }
+/* Responsive Navbar Section End.... */
+
+
+/*activities section started*/
+.activities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.PageBlock{
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.verticalLine{
+    width: 4px;
+    height: 100px;
+    background: #1ab3ce;
+    margin: 0 auto 40px;
+}
+
+.Clear{
+    clear: both; 
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 15px 0;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #151B54;
+}
+
+p{
+    color: #3C565B;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.activity-col{
+    flex-basis: 31%;
+    background: #fff3ff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 00.5s;
+
+}
+
+.activity-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.1;
+    
+}
+
+.activity-col :hover{
+    box-shadow:0 0 0px rgba(54, 58, 121, 0.2);
+
+}
+@media(max-width: 700px)
+{
+    .verticalLine{
+        width: 1px;
+
+    }
+    h1{
+        font-size: 24px;
+        line-height: unset;
+
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+/*activities section end*/
+
+
+/*products section Started*/
+
+.products{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.products-col{
+    position: relative;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.products-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background:#f04b4c;
+}
+
+.layer h3{
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/*products section End*/
+
+
+
+
+/*opprtunities section staretd*/
+
+.opprtunities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.opprtunities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+
+.opprtunities-col img{
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 10px;
+    display: block;
+}
+
+.opprtunities-col img:hover{
+    box-shadow: 0 0 20px 10px rgba(54, 58 , 121,0.2);
+}
+
+.opprtunities-col p{
+    padding: 0;
+}
+
+.opprtunities-col h3{
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/*opprtunities section end*/
+
+
+
+/*testimonials secton started*/
+
+.testimonials{
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonials-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 5%;
+    background: #fff3f3;
+    padding: pointer;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.testimonials-col p{
+    padding: 0;
+
+}
+.testimonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonials-col .fa{
+    color: #f04b4c;
+}
+
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 5px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+}
+
+/*testimonials section end*/
+
+/* create home any section for spaces.........*/ 
+
+
+
+
+
+/* Call To Action Section Start */
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(images/2._diy-wall-art.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    font-size: 58px;
+    font-weight: 800;
+    margin: 15px 0;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .cta h1 {
+        font-size: 26px;
+    }
+}
+
+/* Call To Action Section End */
+
+
+
+
+/* Footer Section Start */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #949fdf;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #04032e;
+}
+
+.icons .fab {
+    color: #5236f4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.icons .fab:hover{
+    color: #04032e;
+}
+
+.fa-heart {
+    color: #949fdf;
+}
+
+hr {
+    border: 0.01px solid;
+}
+
+/* Footer Section End */
+
+
+
+
+
+
+
+
+
+
+
+/*Blog page start*/
+.blog-content{
+   width: 80%;
+   margin: auto;
+   padding: 60px 0; 
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.blog-left h5{
+    color: #04032e;
+    font-weight: bolder;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+
+.blog-right h3{
+    background: #04032e;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.blog-right div:hover{
+    color: #04032e;
+    cursor: pointer;
+}
+
+/*Blog Page end*/
+
+
+/* Comment Box Section Start */
+
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3 {
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.comment-form button {
+    margin: 10px 0;
+}
+@media(max-width: 700px) {
+    .Sub-header h1 {
+        font-size: 24px;
+    }
+}
+
+/* Comment Box Section End */
+
+/*Sustainability Page Started*/
+
+.sustainability{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.sdg_goal{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.sdg_goal img{
+    width:100%;
+    transition: 0.5s;
+    border-radius: 10px;
+    display: block;
+    margin:0;
+  
+}
+
+.sdg_goal img:hover{
+    box-shadow: 0 0 20px 0px #04032e;
+}
+
+.h2{
+    text-align: center;
+    font-weight: 100px;
+}
+
+.sdg_goal h3{
+    text-align:left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.sdg_goal p{
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    display: block;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Sustainability Page End*/
+
