@@ -463,43 +463,48 @@ nav .fa{
 
 /* enter to footer css*/
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/* Footer Section Start */
 
-.footer .credit{
-    text-transform: capitalize;
-    font-size: 2rem;
-    color:#0f0f11;
-    padding: 1rem 0;
-}
-
-.footer .credit span{
-    color:#2ada79;
-}
-
-.footer .follow{
-    padding: 1rem 0;
-}
-
-.footer .follow a{
-    height:4.5rem;
-    line-height:4.5rem;
-    width:4.5rem;
-    border-radius: 50%;
-    font-size: 1.7rem;
-    background:#8282a1;
-    color:#fff;
-    margin:0 .1rem;
+.footer {
+    width: 100%;
     text-align: center;
+    padding: 30px 0;
 }
 
-.footer .follow a:hover{
-    background:#2ada79;
+.footer h4 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
+.footer a {
+    text-decoration: none;
+    color: #949fdf;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #04032e;
+}
+
+.icons .fab {
+    color: #5236f4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.icons .fab:hover{
+    color: #04032e;
+}
+
+.fa-heart {
+    color: #949fdf;
+}
+
+hr {
+    border: 0.01px solid;
+}
 
 
 
