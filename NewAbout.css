@@ -1,0 +1,111 @@
+#team
+{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    background-image:url(images/liner2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+#team h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: aliceblue;
+    line-height: 1.2;
+    max-width: 650px;
+    margin: 0 auto 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team-social li{
+    display: inline-block;
+}
+
+.team-social li a
+{
+    font-size: 14px;
+    color: #18191d;
+    height: 38px;
+    width: 38px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.team-img{
+    position: relative;
+}
+
+.team-social .white-bg li a{
+    background: white;
+}
+
+.team-coverflow
+{
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    max-width: 365px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.team-coverflow .team-text
+{
+    text-align: center;
+    font-size: 14px;
+}
+
+.team-coverflow .team-text h4{
+    font-size: 1.6rem;
+}
+.swiper-slide-active .team-coverflow:hover .team-box-content{
+    opacity: 1;
+    visibility: visible;
+    border-radius: 0;
+    bottom: 0;
+}
+
+.team-box-content{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px 0;
+    z-index: 1;
+    transition: all linear 0.4s;
+}
+
+.team-coverflow .team-img
+{
+    overflow: hidden;
+    width: 100%;
+}

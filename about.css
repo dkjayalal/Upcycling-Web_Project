@@ -197,11 +197,15 @@ nav .fa{
 }
 
 .about-col img {
-    width: 100%;
+    width: 70%;
+    align-items: center;
+    border-radius: 5%;
 }
 
 .about-col h1 {
     padding-top: 0;
+    font-size: 30px;
+    align-items: center;
 }
 
 .about-col p {
