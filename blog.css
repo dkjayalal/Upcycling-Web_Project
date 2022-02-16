@@ -95,6 +95,7 @@ nav .fa{
     display: none;
 }
 
+/*Responsive Navbar Start*/
 @media(max-width :700px ){
 
 
