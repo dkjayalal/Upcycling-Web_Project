@@ -102,3 +102,8 @@ nav .fa{
     margin-bottom: 25px;
     margin-top: 20px;
 }
+.footer a {
+    text-decoration: none;
+    color: #949fdf;
+    font-weight: 600;
+}
