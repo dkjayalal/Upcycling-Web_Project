@@ -117,3 +117,6 @@ nav .fa{
     cursor: pointer;
     padding: 18px 0;
 }
+.icons .fab:hover{
+    color: #04032e;
+}
