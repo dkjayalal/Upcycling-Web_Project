@@ -33,7 +33,7 @@ nav .logo {
     background: url("images/Logo.jpg");
 }
 
-nav .logo{
+nav .fab{
     font-size: 42px;
     color: #4285f4;;
 }
@@ -508,7 +508,7 @@ hr {
 
 
 
-/*Blog page start*/
+/*Blog page start
 .blog-content{
    width: 80%;
    margin: auto;
