@@ -107,3 +107,13 @@ nav .fa{
     color: #949fdf;
     font-weight: 600;
 }
+.footer a:hover {
+    color: #04032e;
+}
+
+.icons .fab {
+    color: #5236f4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
