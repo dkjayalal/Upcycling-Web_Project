@@ -1,37 +1,44 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset ="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>Upcycleit</title>
+        <link rel="stylesheet" href="blog.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet"
          href="http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
-        <link rel="stylesheet" href="blog.css">
     </head>
     <body>
- <header class="header">
-     <a href="#" class="logo"><span>Re</span>juvanate</a>
-     <nav class="navbar">
-         <a href="index.html">Home</a>
-         <a href="About.html">About</a>
-         <a href="sustainability.html">Sustainability</a>
-         <a href="blognew.html">Blog</a>
-         <a href="contact.html">Contact</a>
-     </nav>
+   <!--Created to Upcycleit -->
+   <section class="header">
+    <nav>
+      
+        <a href="index.html" class="logo">
+           <br>
+           <i class="upcyclelogo"></i> 
+        </a>
+       
+ 
+    <div class="nav-links" id="navLinks">
 
-     <div class="icons">
-         <i class="fas fa-bars" id="menu-bars"></i>
-         <i class="fas fa-search" id="search-icon"></i>
-     </div>
+        <!--Reposnive bar open and close-->
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="About.html" target="_blank"> About</a></li>
+            <li><a href="blognew.html" target="_blank">Blog</a></li>
+            <li><a href="Sustainability.html" target="_blank">Sustainability</a></li>
+            <li><a href="Contact.html" target="_blank">Contact</a></li>
+
+        </ul>
+    </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
 
 
-     <form action="" class="search-form">
-         <input type="search" name="" placeholder="Search here" id="search-box">
-         <label for="search-box" class="fas fa-search"></label>
-     </form>
- </header>
 
 <section class="banner" id="banner">
     <div class="content">
@@ -251,35 +258,32 @@ How they participate to the activity<br>
 </section>
 
 
+ <!-- Footer Section Start -->
+ <section class="footer">
+    <hr>
+       <h4>About Us</h4>
+       <p>Upcycling is for everyone! Upcycle It is an internationally growing website. We are currently activating upcycling communities around the world.
+       <br>
+           Want to join the upcycling movement? Connect with us and join the mission!
+       </p>
+       <div class="icons">
+           <i class="fab fa-facebook-f"></i>
+           <i class="fab fa-instagram"></i>
+           <i class="fab fa-twitter"></i>
+           <i class="fab fa-linkedin"></i>
 
+       </div>
 
-
-
-
-
-
-
-
-
-
-
-<!-- footer section starts  -->
-<section class="footer">
-    <div class="follow">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-    </div>
-    <div class="credit">created by <span> 21.1 Computing Batch</span> | all rights reserved</div>
+       <p>Made with <i class="fas fa-heart"></i> by <a href="index.html">Computing Batch-21.1</a></p>
+   <p>Copyright © 2022 <a href="index.html">UpcycleIt</a>. All Rights Reserved</p>
 
 </section>
-
-<!-- footer section ends -->
-
+  <!-- Footer Section End -->
 
     </body>
-    <script src="blog.js">
+    <script src="script.js">
 
     </script>
+
+    
 </html>
