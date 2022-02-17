@@ -198,10 +198,17 @@ nav .fa{
 
 .about-col img {
     width: 100%;
+    transition: 0.5s;
+    border-radius: 10px;
+    display: block;
+    margin: 0;
 }
 
 .about-col h1 {
-    padding-top: 0;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+
 }
 
 .about-col p {
