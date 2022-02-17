@@ -41,7 +41,7 @@ section{
 
 .header
 {
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     right: 0;
@@ -67,7 +67,7 @@ section{
 .header .navbar a{
     color: beige;
     margin-right: 2rem;
-    font-size: 1.7rem;
+    font-size:18px;
     text-transform: capitalize;
 }
 
@@ -94,7 +94,7 @@ section{
     background: #2ada79;
 }
 
-.header .search-form
+/*.header .search-form
 {
     position: absolute;
     background: #fff;
@@ -113,7 +113,7 @@ section{
 .header .search-form.active
 {
     display: flex;
-}
+}*/
 
 
 
@@ -146,13 +146,13 @@ section{
 
 .banner
 {
-    min-height: 80vh;
+    min-height: 100vh;
     background: url(images/back.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
     place-items: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 
