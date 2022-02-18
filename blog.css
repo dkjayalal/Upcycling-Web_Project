@@ -30,11 +30,25 @@ section{
     background: #2ada79;
 }
 
+.header
+{
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 7%;
+}
 .header {
     min-height: 20vh;
     width: 100%;
     position: relative;
    
+
 
 }
 nav{
@@ -44,7 +58,15 @@ nav{
 	align-items: center;
     height: 80px;
 }
-nav .logo {
+
+.header .navbar a{
+    color: beige;
+    margin-right: 2rem;
+    font-size:18px;
+    text-transform: capitalize;
+}
+
+.nav logo{
     text-decoration: none;
     font-size: 50px;
     color: rgb(214, 196, 216);
@@ -66,6 +88,28 @@ nav .fab{
     flex: 1;
 }
 
+
+
+/*.header .search-form
+{
+    position: absolute;
+    background: #fff;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    top:110%;
+    right: 7%;
+    height: 6rem;
+    width: 50rem;
+    padding: 1rem ;
+    display: none;
+}
+
+.header .search-form.active
+{
+    display: flex;
+}*/
 
 .nav-links ul li{
    display:inline-block;
@@ -99,6 +143,7 @@ nav .fa{
 @media(max-width :700px ){
 
 
+
     .text_box h2{
 
     font-size: 50px;
@@ -109,6 +154,19 @@ nav.logo{
 .text_box #headtext{
     font-size: 23px;
 }
+
+.header .search-form label:hover ::after
+{
+    content: '';
+        width: 0%;
+        height: 2px;
+        background:  #26723d;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+        width: 100%;
+}
+
 .text_box p{
     margin: 10px 40px;
     font-size: 15px;
@@ -127,6 +185,7 @@ nav.logo{
     z-index:2;
     transition:1.2s;
 
+
 }
 nav .fa{
     display:block;
@@ -144,13 +203,13 @@ nav .fa{
 
 .banner
 {
-    min-height: 80vh;
+    min-height: 100vh;
     background: url(images/back.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
     place-items: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 
@@ -509,31 +568,6 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .container
     {
     
@@ -546,7 +580,7 @@ hr {
         height: 30rem;
     }
 
-}
+
 
 @media (max-width:450px)
 {

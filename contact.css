@@ -1,9 +1,11 @@
+@import url("href=http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 section{
     padding: 2% 6%;
 }
@@ -25,11 +27,12 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color: rgb(214, 196, 216);
+    color: rgb(35, 97, 68);
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: url("images/Logo.jpg");
+    background: #fff;
+
 }
 
 nav .fab{
@@ -119,6 +122,191 @@ nav .fa{
 }
 /* Responsive Navbar Section End.... */
 
+/*contact page start*/
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background:rgba(0, 0, 0, 0.7) url(images/bg4.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(7, 145, 25);
+
+} 
+
+.contact .content p
+{
+    font-weight: 100%;
+    color: rgb(255, 240, 240);
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .Contact-Info
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .Contact-Info .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .Contact-Info .box .icon 
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(223, 217, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .Contact-Info .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(241, 14, 14);
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .Contact-Info .box .text p
+{
+    font-weight: 300;
+    color: #fff;
+}
+
+.container .Contact-Info .box .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+ .ContactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff; 
+    opacity: 0.7;
+
+}
+
+.ContactForm h2
+{
+    font-size: 30px;
+    color: #00bcd4;
+    font-weight: 500;
+}
+
+.ContactForm .input-Box
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+ .ContactForm .input-Box input,
+ .ContactForm .input-Box textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px; 
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(5, 1, 1);
+    outline: none;
+}
+
+.ContactForm .input-Box span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px; 
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
+}
+
+.ContactForm .input-Box input:focus ~ span,
+.ContactForm .input-Box input:valid ~ span,
+.ContactForm .input-Box textarea:focus ~ span,
+.ContactForm .input-Box textarea:valid ~ span
+{
+    color: #1ee91e;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.ContactForm .input-Box input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+
+    .container .Contact-Info
+    {
+        margin-bottom: 40px;
+    }
+    .container .Contact-Info,
+    .ContactForm
+    {
+        width: 100%;
+    }
+}
+  
+/*Blog Page end*/
+
 
 
 
@@ -175,3 +363,4 @@ nav .fa{
 hr {
     border: 0.01px solid;
 }
+/* Footer Section end*/

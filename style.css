@@ -14,7 +14,7 @@ section{
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image:linear-gradient(#8bc4cec4, #5768c71a), url(images/image4.jpg);
+    background-image:/*linear-gradient(#7fd4b4e3, #a3e0c7e1),*/ url(images/covernew.jpg);
 
 }
 
@@ -28,16 +28,17 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color: rgb(214, 196, 216);
+    color: rgb(35, 97, 68);
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: url("images/Logo.jpg");
+    background: #fff;
 }
 
 nav .fab{
     font-size: 42px;
-    color: #4285f4;;
+    color: #0e7536;
+    background: #fff0;
 }
 
 .nav-links{   
@@ -56,14 +57,14 @@ nav .fab{
 }
 .nav-links ul li a{
    text-decoration: none;
-   color: #384975;
+   color: #26723d;
    font-size: 18px;
 }
 .nav-links ul li::after {
    content: '';
    width: 0%;
    height: 2px;
-   background: #213159;
+   background:  #26723d;
    display: block;
    margin: auto;
    transition: 0.5s;
@@ -80,12 +81,13 @@ nav .fab{
     transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 30px;
+    font-size: 40px;
     
 }
 .text_box h2 {
     font-size: 90px;
     font-weight: 900;
-    color: #213159;
+    color:  #26723d;
 }
 .text_box #headtext {
     font-size: 42px;
@@ -93,20 +95,21 @@ nav .fab{
     text-transform: uppercase;
     margin-top: -1%;
     margin-bottom: 1%;
-    color: #3d6098;
+    color:  #75a784;
 }
 .text_box p {
     margin: 10px 0 40px;
     font-size: 18px;
-    color: #213159;
-    font-weight: 510px;
+    color: #131416;
+    font-weight: 1000px;
+    font-size: 20px;
 }
 
 .hero_btn {
     position: relative;
     display: inline-block;
-    color: #213159;
-    border: 1px solid #213159;
+    color:  #000;
+    border: 1px solid #26723d;
     border-radius: 5px;
     padding: 12px 34px;
     font-weight: 200px;
@@ -116,8 +119,8 @@ nav .fab{
     text-decoration: none;
 }
 .hero_btn:hover{
-    border:1px soild #f04b4c;
-    background: #f04b4c;
+    border:1px soild #5cbb96;
+    background:#5cbb96;
     transition: 1s;
 }
 
@@ -147,7 +150,7 @@ nav .fa{
  }
  .nav-links{
      position:fixed;
-     background:#33d7ddfa;
+     background:#5cbb96;
      height:100vh;
      width:200px;
      top:0;
@@ -159,7 +162,7 @@ nav .fa{
  }
  nav .fa{
      display:block;
-     color:rgb(58, 27, 196);
+     color: #26723d;
      margin: 10px;
      font-size:22px;
      cursor:pointer;
@@ -188,7 +191,7 @@ nav .fa{
 .verticalLine{
     width: 4px;
     height: 100px;
-    background: #1ab3ce;
+    background: #5cbb96;
     margin: 0 auto 40px;
 }
 
@@ -202,11 +205,11 @@ h1{
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #151B54;
+    color: #26723d;
 }
 
 p{
-    color: #3C565B;
+    color: #3c5b45;
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
@@ -295,7 +298,7 @@ p{
 }
 
 .layer:hover{
-    background:#f04b4c;
+    background:#0e7536;
 }
 
 .layer h3{
@@ -403,7 +406,7 @@ p{
 }
 
 .testimonials-col .fa{
-    color: #f04b4c;
+    color:#0e7536;
 }
 
 @media(max-width: 700px){
