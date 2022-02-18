@@ -198,7 +198,7 @@ nav .fa{
 }
 
 .about-col img {
-<<<<<<< HEAD
+
     width: 100%;
     transition: 0.5s;
     border-radius: 10px;
@@ -210,8 +210,6 @@ nav .fa{
     text-align: left;
     margin-top: 16px;
     margin-bottom: 15px;
-
-=======
     width: 70%;
     align-items: center;
     border-radius: 5%;
@@ -221,7 +219,6 @@ nav .fa{
     padding-top: 0;
     font-size: 30px;
     align-items: center;
->>>>>>> b16908539a0c5261f2fa3bfecb56d60973186aac
 }
 
 .about-col p {
