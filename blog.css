@@ -138,6 +138,17 @@ section{
 .header .search-form label:hover{
     color: #2ada79;
 }
+.header .search-form label:hover ::after
+{
+    content: '';
+        width: 0%;
+        height: 2px;
+        background:  #26723d;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+        width: 100%;
+}
 
 
 #menu-bars{
