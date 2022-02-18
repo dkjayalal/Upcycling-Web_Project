@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 section{
     padding: 2% 6%;
 }
@@ -128,13 +129,13 @@ nav .fa{
     display: flex;
     justify-content: center;
     align-items: center; 
-    flex
-    -direction: column;
+    flex-direction: column;
     background:rgba(0, 0, 0, 0.7) url(images/bg4.jpg);
     background-size: cover;
     background-blend-mode: darken;
     
 }
+
 .contact .content
 {
     max-width: 800px;
@@ -183,7 +184,7 @@ nav .fa{
 {
     min-width: 60px;
     height: 60px;
-    background: rgb(14, 185, 228);
+    background: rgb(223, 217, 226);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +214,7 @@ nav .fa{
     color: #00bcd4;
 }
 
-.ContactForm
+ .ContactForm
 {
     width: 40%;
     padding: 40px;
@@ -259,6 +260,7 @@ nav .fa{
     transition: 0.5s;
     color: #000;
 }
+
 .ContactForm .input-Box input:focus ~ span,
 .ContactForm .input-Box input:valid ~ span,
 .ContactForm .input-Box textarea:focus ~ span,
@@ -303,6 +305,9 @@ nav .fa{
 }
   
 /*Blog Page end*/
+
+
+
 
 
 
