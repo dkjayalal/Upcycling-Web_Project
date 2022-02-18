@@ -133,7 +133,7 @@ nav .fa{
     font-size: 50px;
 }
 nav.logo{
-    font-size:15px;
+    font-size: 30px;
 }
 .text_box #headtext{
     font-size: 23px;
@@ -183,6 +183,7 @@ nav .fa{
 
 .sub-header h1 {
    margin-top: 10px;
+   font-size: 25px;
 }
 
 .about {
@@ -213,6 +214,7 @@ nav .fa{
     width: 70%;
     align-items: center;
     border-radius: 5%;
+    font-size: 25px;
 }
 
 .about-col h1 {
@@ -223,6 +225,7 @@ nav .fa{
 
 .about-col p {
     padding: 15px 0 25px;
+    font-size: 20px;
 }
 
 .btn {
