@@ -80,6 +80,7 @@ nav .fa{
     cursor: pointer;
     font-size: 1.7rem;
     margin-bottom: 1rem;
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -224,7 +225,7 @@ nav .fa{
     border-top: solid rgba(0,0,0,0.2);
     margin-top: .5rem;
     padding-top: 1.5rem;
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
@@ -243,6 +244,7 @@ nav .fa{
 {
     font-size: 1.5rem;
     color: #2ada79;
+    text-decoration: none;
 }
 
 
@@ -316,6 +318,7 @@ nav .fa{
     color:#fff;
     font-size:1.2rem ;
     margin: 0 .1rem;
+    text-decoration: none
 }
 
 .container .sidebar .box .about .follow a:hover
@@ -335,6 +338,7 @@ nav .fa{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .container .sidebar .box .category a span{
@@ -362,6 +366,7 @@ nav .fa{
 .container .sidebar .box .p-post a{
     padding: 1rem 0;
     display: block;
+    text-decoration: none;
 }
 
 .container .sidebar .box .p-post a h3{
@@ -401,6 +406,7 @@ nav .fa{
     border-radius: .9rem;
     border: solid rgba(0,0,0,0.2);
     margin: .3rem;
+    text-decoration: none
 }
 
 .container .sidebar .box .tags a:hover
