@@ -128,7 +128,8 @@ nav .fa{
     display: flex;
     justify-content: center;
     align-items: center; 
-    flex-direction: column;
+    flex
+    -direction: column;
     background:rgba(0, 0, 0, 0.7) url(./bg4.jpg);
     background-size: cover;
     background-blend-mode: darken;
@@ -164,6 +165,53 @@ nav .fa{
     margin-top: 30px;
 }
 
+.container .Contact-Info
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .Contact-Info .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .Contact-Info .box .icon 
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(14, 185, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .Contact-Info .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(241, 14, 14);
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .Contact-Info .box .text p
+{
+    font-weight: 300;
+    color: #fff;
+}
+
+.container .Contact-Info .box .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
 
 
 
