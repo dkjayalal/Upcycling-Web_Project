@@ -1,3 +1,4 @@
+@import url("href=http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -118,6 +119,22 @@ nav .fa{
     }
 }
 /* Responsive Navbar Section End.... */
+
+/*contact page start*/
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background:rgba(0, 0, 0, 0.7) url(./bg4.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
 
 
 
