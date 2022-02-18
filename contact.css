@@ -134,6 +134,35 @@ nav .fa{
     background-blend-mode: darken;
     
 }
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(7, 145, 25);
+
+} 
+
+.contact .content p
+{
+    font-weight: 100%;
+    color: rgb(255, 240, 240);
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
 
 
 
