@@ -130,7 +130,7 @@ nav .fa{
     align-items: center; 
     flex
     -direction: column;
-    background:rgba(0, 0, 0, 0.7) url(./bg4.jpg);
+    background:rgba(0, 0, 0, 0.7) url(images/bg4.jpg);
     background-size: cover;
     background-blend-mode: darken;
     
@@ -259,7 +259,50 @@ nav .fa{
     transition: 0.5s;
     color: #000;
 }
+.ContactForm .input-Box input:focus ~ span,
+.ContactForm .input-Box input:valid ~ span,
+.ContactForm .input-Box textarea:focus ~ span,
+.ContactForm .input-Box textarea:valid ~ span
+{
+    color: #1ee91e;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
 
+.ContactForm .input-Box input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+
+    .container .Contact-Info
+    {
+        margin-bottom: 40px;
+    }
+    .container .Contact-Info,
+    .ContactForm
+    {
+        width: 100%;
+    }
+}
+  
+/*Blog Page end*/
 
 
 
