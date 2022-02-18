@@ -1,8 +1,6 @@
 *
 {
     font-family: sans-serif;
-    margin-left: 30px;
-    margin-right: 20px;
 }
 .container
 {
@@ -22,6 +20,11 @@
     margin: 15px;
     overflow: hidden;
 }
+
+/*.container .card .imgBx
+{
+    margin-left: 100px;
+}*/
 
 .container .card .imgBx,
 .container .card .contentBx
