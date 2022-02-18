@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+section{
+    padding: 2% 6%;
+}
 .header {
     min-height: 100vh;
     width: 100%;
@@ -33,7 +35,7 @@ nav .logo {
     background: url("images/Logo.jpg");
 }
 
-nav .logo{
+nav .fab{
     font-size: 42px;
     color: #0e7536;
     background: #fff0;
@@ -511,7 +513,7 @@ hr {
 
 
 
-/*Blog page start*/
+/*Blog page start
 .blog-content{
    width: 80%;
    margin: auto;
