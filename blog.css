@@ -4,16 +4,72 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-html{
-    font-weight: 72.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: rem;   
-}
 section{
-    padding: 2rem 7%;
+    padding: 2% 6%;
+}
+.header {
+    min-height: 20vh;
+    width: 100%;
+    position: relative;
+   
+
+}
+nav{
+	display:flex;
+	padding:2% 6%;
+	justify-content: space-between;
+	align-items: center;
+    height: 80px;
+}
+nav .logo {
+    text-decoration: none;
+    font-size: 50px;
+    color:  rgb(35, 97, 68);
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #fff;
+
+}
+nav .fab{
+    font-size: 42px;
+    color: #0e7536;
 }
 
+
+.nav-links{   
+    text-align: right;
+   
+    flex: 1;
+}
+
+.nav-links ul li{
+    display:inline-block;
+    list-style:none;
+    padding:8px 12px;
+    position: relative;
+    text-transform: uppercase;
+ }
+ .nav-links ul li a{
+    text-decoration: none;
+    color:#26723d;
+    font-size: 18px;
+ }
+ .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:  #26723d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+ }
+ .nav-links ul li:hover::after {
+    width: 100%;
+}
+nav .fa{
+    display: none;
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -30,114 +86,6 @@ section{
     background: #2ada79;
 }
 
-.header
-{
-    /*position: fixed;*/
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: #fff;
-    box-shadow:0 .5rem 1rem rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    padding: 1.2rem 7%;
-}
-.header {
-    min-height: 20vh;
-    width: 100%;
-    position: relative;
-   
-
-
-}
-nav{
-	display:flex;
-	padding:2% 6%;
-	justify-content: space-between;
-	align-items: center;
-    height: 80px;
-}
-
-.header .navbar a{
-    color: beige;
-    margin-right: 2rem;
-    font-size:18px;
-    text-transform: capitalize;
-}
-
-.nav logo{
-    text-decoration: none;
-    font-size: 50px;
-    color: rgb(214, 196, 216);
-    font-weight: bold;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: url("images/Logo.jpg");
-}
-
-nav .fab{
-    font-size: 42px;
-    color: #4285f4;;
-}
-
-
-.nav-links{   
-    text-align: right;
-   
-    flex: 1;
-}
-
-
-
-/*.header .search-form
-{
-    position: absolute;
-    background: #fff;
-    border-radius: .5rem;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
-    top:110%;
-    right: 7%;
-    height: 6rem;
-    width: 50rem;
-    padding: 1rem ;
-    display: none;
-}
-
-.header .search-form.active
-{
-    display: flex;
-}*/
-
-.nav-links ul li{
-   display:inline-block;
-   list-style:none;
-   padding:8px 12px;
-   position: relative;
-   text-transform: uppercase;
-}
-.nav-links ul li a{
-   text-decoration: none;
-   color: #384975;
-   font-size: 18px;
-}
-.nav-links ul li::after {
-   content: '';
-   width: 0%;
-   height: 2px;
-   background: #213159;
-   display: block;
-   margin: auto;
-   transition: 0.5s;
-}
-.nav-links ul li:hover::after {
-    width: 100%;
-}
-nav .fa{
-    display: none;
-}
 
 /*Responsive Navbar Start*/
 @media(max-width :700px ){
@@ -155,18 +103,6 @@ nav.logo{
     font-size: 23px;
 }
 
-.header .search-form label:hover ::after
-{
-    content: '';
-        width: 0%;
-        height: 2px;
-        background:  #26723d;
-        display: block;
-        margin: auto;
-        transition: 0.5s;
-        width: 100%;
-}
-
 .text_box p{
     margin: 10px 40px;
     font-size: 15px;
@@ -176,7 +112,7 @@ nav.logo{
 }
 .nav-links{
     position:fixed;
-    background:#33d7ddfa;
+    background:#5cbb96;
     height:100vh;
     width:200px;
     top:0;
@@ -189,7 +125,7 @@ nav.logo{
 }
 nav .fa{
     display:block;
-    color:rgb(58, 27, 196);
+    color: #0e7536;
     margin: 10px;
     font-size:22px;
     cursor:pointer;
