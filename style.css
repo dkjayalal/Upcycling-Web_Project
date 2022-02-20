@@ -14,7 +14,7 @@ section{
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image:/*linear-gradient(#7fd4b4e3, #a3e0c7e1),*/ url(images/covernew.jpg);
+    background-image:linear-gradient(#7d86833a, #52665e59) ,url(images/covernew.jpg);
 
 }
 
@@ -28,7 +28,7 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color: rgb(35, 97, 68);
+    color: #14913bd8;
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -57,14 +57,14 @@ nav .fab{
 }
 .nav-links ul li a{
    text-decoration: none;
-   color: #26723d;
-   font-size: 18px;
+   color: #125c28;
+   font-size: 20px;
 }
 .nav-links ul li::after {
    content: '';
    width: 0%;
    height: 2px;
-   background:  #26723d;
+   background:  #3e8b56;
    display: block;
    margin: auto;
    transition: 0.5s;
@@ -87,7 +87,7 @@ nav .fab{
 .text_box h2 {
     font-size: 90px;
     font-weight: 900;
-    color:  #26723d;
+    color:  #14913bd8;
 }
 .text_box #headtext {
     font-size: 42px;
@@ -95,7 +95,7 @@ nav .fab{
     text-transform: uppercase;
     margin-top: -1%;
     margin-bottom: 1%;
-    color:  #75a784;
+    color:  #63cc83ce;
 }
 .text_box p {
     margin: 10px 0 40px;
@@ -112,15 +112,15 @@ nav .fab{
     border: 1px solid #26723d;
     border-radius: 5px;
     padding: 12px 34px;
-    font-weight: 200px;
-    font-size: 15px;
+    font-weight: 100px;
+    font-size: 20px;
     background: transparent;
     cursor: pointer;
     text-decoration: none;
 }
 .hero_btn:hover{
     border:1px soild #5cbb96;
-    background:#5cbb96;
+    background:#63cc83ce;
     transition: 1s;
 }
 
@@ -190,8 +190,8 @@ nav .fa{
 
 .verticalLine{
     width: 4px;
-    height: 100px;
-    background: #5cbb96;
+    height: 150px;
+    background: #000000b9;
     margin: 0 auto 40px;
 }
 
@@ -205,13 +205,13 @@ h1{
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #26723d;
+    color:  #14913bd8;
 }
 
 p{
-    color: #3c5b45;
+    color: #455c4b;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 3800;
     line-height: 22px;
     padding: 10px;
 }
@@ -225,7 +225,7 @@ p{
 
 .activity-col{
     flex-basis: 31%;
-    background: #fff3ff;
+    background: linear-gradient(#5cb473a2, #92b1b146);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -239,6 +239,7 @@ p{
     font-weight: 600;
     margin: 10px 0;
     line-height: 1.1;
+    font-size: 25px;
     
 }
 
@@ -298,7 +299,7 @@ p{
 }
 
 .layer:hover{
-    background:#0e7536;
+    background:#14913bd8;
 }
 
 .layer h3{
@@ -391,6 +392,7 @@ p{
 .testimonials-col img{
     height: 80px;
     width: 80px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 50%;
@@ -398,6 +400,7 @@ p{
 
 .testimonials-col p{
     padding: 0;
+    margin-top: 10px;
 
 }
 .testimonials-col h3{
@@ -430,7 +433,7 @@ p{
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(images/2._diy-wall-art.jpg);
+    background-image: /*linear-gradient(rgba(113, 255, 111, 0.3),rgba(113, 142, 111, 0.2)),*/ url(images/cont.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -439,12 +442,12 @@ p{
 }
 
 .cta h1 {
-    font-size: 58px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 600;
     margin: 15px 0;
     line-height: 1.1;
     text-transform: uppercase;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.877);
 }
 
 @media (max-width: 700px) {
@@ -474,27 +477,27 @@ p{
 
 .footer a {
     text-decoration: none;
-    color: #949fdf;
+    color: #0e7536;
     font-weight: 600;
 }
 
 .footer a:hover {
-    color: #04032e;
+    color: #032e0a;
 }
 
 .icons .fab {
-    color: #5236f4;
+    color: #188043c9;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
 
 .icons .fab:hover{
-    color: #04032e;
+    color: #032e0a;
 }
 
 .fa-heart {
-    color: #949fdf;
+    color: #0e7536;
 }
 
 hr {
