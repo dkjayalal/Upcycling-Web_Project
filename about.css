@@ -26,7 +26,7 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color: rgb(214, 196, 216);
+    color: #0e7536;
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -104,8 +104,8 @@ nav .logo{
 .hero_btn {
     position: relative;
     display: inline-block;
-    color: #213159;
-    border: 1px solid #213159;
+    color: #000;
+    border: 1px solid #26723d;
     border-radius: 5px;
     padding: 12px 34px;
     font-weight: 200px;
@@ -115,8 +115,8 @@ nav .logo{
     text-decoration: none;
 }
 .hero_btn:hover{
-    border:1px soild #f04b4c;
-    background: #f04b4c;
+    border:1px soild #5cbb96;
+    background: #63cc83ce;
     transition: 1s;
 }
 
@@ -167,13 +167,20 @@ nav .fa{
 .nav-links ul{
     padding : 30px;
     }
+.h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: center;
+    line-height: 50px;
+}
+
 }
 /* Responsive Navbar Section End.... */
 
 /* About  Section Start */
 
  .sub-header {
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -209,7 +216,7 @@ nav .fa{
 
 .about-col h1 {
     text-align: left;
-    margin-top: 16px;
+    margin-top: 14px;
     margin-bottom: 15px;
     width: 70%;
     align-items: center;
@@ -219,23 +226,28 @@ nav .fa{
 
 .about-col h1 {
     padding-top: 0;
-    font-size: 30px;
+    font-size: 35px;
+    color: #14913bd8;
     align-items: center;
 }
 
 .about-col p {
     padding: 15px 0 25px;
     font-size: 20px;
+    color: #455c4b;
+    font-weight: 3800;
 }
 
 .btn {
-    border: 1px solid #5236f4;
+    border: 1px solid #26723d;
     background: transparent;
-    color: #5236f4;
+    color: #000;
 }
 
 .btn:hover {
-    color: #fff;
+    border: 1px solid #5cbb96;
+    background: #63cc83ce;
+    transition: 1s;
 }
 
 /* About Section End */
