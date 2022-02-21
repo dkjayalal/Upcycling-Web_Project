@@ -638,7 +638,6 @@ hr {
     border-radius: 10px;
     display: block;
     margin:0;
-  
 }
 
 .sdg_goal img:hover{
@@ -654,10 +653,13 @@ hr {
     text-align:left;
     margin-top: 16px;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 .sdg_goal p{
     padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 *{
@@ -674,6 +676,7 @@ hr {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    background:rgb(255, 243, 243);
 }
 
 /*Sustainability Page End*/
