@@ -4,18 +4,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+section{
+    padding: 2% 6%;
+}
 .header {
-    min-height: 100vh;
+    min-height: 20vh;
     width: 100%;
-    /*background:linear-gradient(#a0675c,#5c261d) ,url(images/back.jpg);*/
-    background-position: center;
-    background-size: cover;
     position: relative;
-    background-image:linear-gradient(#8bc4cec4, #5768c71a), url(images/image4.jpg);
+   
 
 }
-
 nav{
 	display:flex;
 	padding:2% 6%;
@@ -26,18 +24,18 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color: #0e7536;
+    color:  rgb(35, 97, 68);
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: url("images/Logo.jpg");
-}
+    background: #fff;
 
-nav .logo{
+}
+nav .fab{
     font-size: 42px;
     color: #0e7536;
-    background: #fff;
 }
+
 
 .nav-links{   
     text-align: right;
@@ -45,30 +43,32 @@ nav .logo{
     flex: 1;
 }
 
-
 .nav-links ul li{
-   display:inline-block;
-   list-style:none;
-   padding:8px 12px;
-   position: relative;
-   text-transform: uppercase;
-}
-.nav-links ul li a{
-   text-decoration: none;
-   color: #26723d;
-   font-size: 18px;
-}
-.nav-links ul li::after {
-   content: '';
-   width: 0%;
-   height: 2px;
-   background: #26723d;
-   display: block;
-   margin: auto;
-   transition: 0.5s;
-}
-.nav-links ul li:hover::after {
+    display:inline-block;
+    list-style:none;
+    padding:8px 12px;
+    position: relative;
+    text-transform: uppercase;
+ }
+ .nav-links ul li a{
+    text-decoration: none;
+    color:#26723d;
+    font-size: 18px;
+ }
+ .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:  #26723d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+ }
+ .nav-links ul li:hover::after {
     width: 100%;
+}
+nav .fa{
+    display: none;
 }
 .text_box {
 	width: 90%;
@@ -120,9 +120,6 @@ nav .logo{
     transition: 1s;
 }
 
-nav .fa{
-     display: none;
- }
 
 /*Responsive Navbar Start*/
  @media(max-width :700px ){
