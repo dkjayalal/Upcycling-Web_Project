@@ -11,8 +11,6 @@ section{
     min-height: 20vh;
     width: 100%;
     position: relative;
-   
-
 }
 nav{
 	display:flex;
@@ -140,7 +138,7 @@ nav .fa{
 .banner
 {
     min-height: 100vh;
-    background: url(images/back.jpg);
+    background: url(images/diy.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -160,7 +158,7 @@ nav .fa{
 
 .banner .content h3{
     font-size: 38px;
-    color: #252533;
+    color: #253328;
     text-transform: uppercase;
     font-family: cursive;
 }
@@ -508,12 +506,8 @@ nav .fa{
 hr {
     border: 0.01px solid;
 }
-
-
-
     .container
-    {
-    
+    {   
     grid-template-columns: 1fr;
     gap: 0;
     }
@@ -522,8 +516,6 @@ hr {
     {
         height: 30rem;
     }
-
-
 
 @media (max-width:450px)
 {

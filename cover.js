@@ -6,7 +6,8 @@ var images = new Array (
     "images/covernew.jpg" ,
     "images/ab2.jpg" ,
     "images/sdg_12.jpg" ,
-    "images/image4.jpg"
+    "images/image4.jpg",
+    "images/community1.jpg"
 );
 
 var len = images.length;
