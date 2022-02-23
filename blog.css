@@ -159,10 +159,10 @@ nav .fa{
 }
 
 .banner .content h3{
-    font-size: 5rem;
-    color: #0f0f11;
+    font-size: 38px;
+    color: #252533;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
 }
 
 .banner .content p{
@@ -170,6 +170,7 @@ nav .fa{
     color: #2ada79;
     padding: 1rem 0;
     line-height: 1.5;
+    font-family: cursive;
 }
 
 .container
@@ -271,8 +272,8 @@ nav .fa{
 
 .container .sidebar .box .title
 {
-    padding: 1.5rem;
-    font-size: 2rem;
+    padding: 1.1rem;
+    font-size: 1.5rem;
     color: #fff;
     background: #0f0f11;
     text-transform: capitalize;
@@ -294,12 +295,12 @@ nav .fa{
 
 .container .sidebar .box .about h3{
     color:#2ada79;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .container .sidebar .box .about p{
     color:#8282a1;
-    font-size: 2rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     padding: 1rem 0;
 }
@@ -309,13 +310,14 @@ nav .fa{
 }
 
 .container .sidebar .box .about .follow a{
-    height: 3rem;
-    line-height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    line-height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     background: #434349;
     color:#fff;
     font-size:1.2rem ;
+    margin: top 0px;
     margin: 0 .1rem;
     text-decoration: none
 }
@@ -399,12 +401,12 @@ nav .fa{
 
 .container .sidebar .box  .tags a{
     display: inline-block;
-    padding: 1rem 1.5rem;
-    font-size: 1.2rem;
+    padding: 10px 15px;
+    font-size: 12px;
     color: #0f0f11;
-    border-radius: .9rem;
+    border-radius: 9px;
     border: solid rgba(0,0,0,0.2);
-    margin: .3rem;
+    margin: 3px;
     text-decoration: none
 }
 
@@ -417,7 +419,7 @@ nav .fa{
 
 .contact
 {
-    background: url(metal/metal30.jpg);
+    background:url(images/5._upcycled-ladder-shelf.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -436,7 +438,7 @@ nav .fa{
     color: #0f0f11;
     text-align: center;
     padding-bottom: 1.2rem;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
 }
 
@@ -480,27 +482,27 @@ nav .fa{
 
 .footer a {
     text-decoration: none;
-    color: #949fdf;
+    color: #94dfa4;
     font-weight: 600;
 }
 
 .footer a:hover {
-    color: #04032e;
+    color: #032e13;
 }
 
 .icons .fab {
-    color: #5236f4;
+    color: #36f495;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
 
 .icons .fab:hover{
-    color: #04032e;
+    color: #032e11;
 }
 
 .fa-heart {
-    color: #949fdf;
+    color: #94dfb1;
 }
 
 hr {
