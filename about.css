@@ -204,11 +204,11 @@ nav .fa{
 
 .about-col img {
 
-    width: 100%;
+    width: 70%;
     transition: 0.5s;
     border-radius: 10px;
-    display: block;
-    margin: 0;
+    display: inline-block;
+    margin: left;
 }
 
 .about-col h1 {
@@ -228,7 +228,12 @@ nav .fa{
     align-items: center;
 }
 
+aside {
+    display: block;
+}
+
 .about-col p {
+    align-self: center;
     padding: 15px 0 25px;
     font-size: 20px;
     color: #455c4b;
