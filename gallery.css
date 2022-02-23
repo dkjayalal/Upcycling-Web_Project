@@ -16,13 +16,6 @@ h1{
     margin-top: 50px;
     font-size: 70x;
 }
-/* h3{
-    /*text-align: center;
-    margin-top: 50px;
-    color: #04032e;
-    font-size: 20px;
-    font-weight: bolder;
-} */
 
 .wrapper{
     margin: 100px auto;
@@ -37,7 +30,7 @@ nav .items{
 }
 
 nav .items .item{
-    padding: 7px 25px;
+    padding: 10px 25px;
     font-size: 18px;
     font-weight: 500;
     color: #63cc83ce;
