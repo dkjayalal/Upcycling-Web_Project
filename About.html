@@ -92,30 +92,6 @@
         </div>
         
     
-    <script>
-        var slideImg = document.getElementById("slideImg");
-    
-        var images = new Array (
-            "images/ab1.jpg" ,
-            "images/covernew.jpg" ,
-            "images/ab2.jpg" ,
-            "images/sdg_12.jpg" ,
-            "images/image4.jpg"
-        );
-    
-        var len = images.length;
-        var i = 0;
-    
-        function slider() {
-            if(i>len-1){
-                i = 0;
-            }
-            slideImg.src = images[i];
-            i++;
-            setTimeout('slider()',3000);
-        }
-    
-    </script>
        
 </section>
 <h1 style="align-items: center; margin-left: 120px; color: #14913bd8; font-size: 3rem;">About Rejuvanates</h1>
@@ -225,6 +201,7 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js"></script>
      <script src="script.js"></script>
 
+     <script src="cover.js"></script>
      </body>
 </html>       
        
