@@ -379,7 +379,7 @@ p{
     text-align: center;
 }
 
-/*.testimonials-col{
+.testimonials-col{
     flex-basis: 31%;
     border-radius: 10px;
     text-align: left;
@@ -388,7 +388,7 @@ p{
     padding: pointer;
     cursor: pointer;
     display: flex;
-}*/
+}
 
 .testimonials-col img{
     height: 80px;
