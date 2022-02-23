@@ -37,7 +37,7 @@ nav .logo {
 
 nav .fab{
     font-size: 42px;
-    color: #4285f4;;
+    color: #42f477;;
 }
 
 
@@ -200,7 +200,7 @@ nav .fa{
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: rgb(241, 14, 14);
+    color: rgb(14, 241, 25);
     flex-direction: column;
     font-weight: 300;
 }
@@ -312,23 +312,6 @@ nav .fa{
 /*Blog Page end*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer Section Start */
 
 .footer {
@@ -344,24 +327,24 @@ nav .fa{
 }
 .footer a {
     text-decoration: none;
-    color: #949fdf;
+    color:#0e7536;
     font-weight: 600;
 }
 .footer a:hover {
-    color: #04032e;
+    color: #032e0a;
 }
 
 .icons .fab {
-    color: #5236f4;
+    color: #188043c9;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
 .icons .fab:hover{
-    color: #04032e;
+    color: #032e0a;
 }
 .fa-heart {
-    color: #949fdf;
+    color: #0e7536;
 }
 
 hr {

@@ -102,3 +102,41 @@
     font-weight: 400;
     color: black;
 }
+
+@media(max-width: 1000px){
+    .container .card .imgBx,
+.container .card .contentBx{
+        width: calc(100% / 2);
+    }
+}
+
+@media(max-width: 800px){
+    .container .card .imgBx,
+.container .card .contentBx{
+        width: calc(100% / 2);
+    }
+}
+
+@media(max-width: 700px){
+    nav .items{
+        max-width: 600px;  
+    }
+    nav .items .item{
+        padding: 7px 15px;
+    }
+}
+
+@media(max-width: 600px){
+    nav .items{
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    nav .items .item{
+       margin: 5px;
+    }
+    .container .card .imgBx,
+.container .card .contentBx{
+        width: 100%;
+        height: 30px;
+    }
+}

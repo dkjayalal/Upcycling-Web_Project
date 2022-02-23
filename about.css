@@ -10,7 +10,6 @@ section{
 .header {
     min-height: 100vh;
     width: 100%;
-    /*background:linear-gradient(#a0675c,#5c261d) ,url(images/back.jpg);*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -89,7 +88,9 @@ nav .fab{
 .text_box h2 {
     font-size: 90px;
     font-weight: 900;
+    color: #215934;
     color:  #14913bd8;
+
 }
 .text_box #headtext {
     font-size: 42px;
@@ -97,6 +98,13 @@ nav .fab{
     text-transform: uppercase;
     margin-top: -1%;
     margin-bottom: 1%;
+    color: #3d985b;
+}
+.text_box p {
+    margin: 10px 0 40px;
+    font-size: 40px;
+    color: #215926;
+    font-weight: 510px;
     color:  #63cc83ce;
 }
 .text_box p {
@@ -253,6 +261,37 @@ aside {
 }
 
 /* About Section End */
+
+/* Call To Action Section Start */
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: /*linear-gradient(rgba(113, 255, 111, 0.3),rgba(113, 142, 111, 0.2)),*/ url(images/cont.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 15px 0;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.877);
+}
+
+@media (max-width: 700px) {
+    .cta h1 {
+        font-size: 26px;
+    }
+}
+
+/* Call To Action Section End */
+
 
 /* Footer Section Start */
 
