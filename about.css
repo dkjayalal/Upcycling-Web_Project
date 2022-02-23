@@ -8,10 +8,15 @@ section{
     padding: 2% 6%;
 }
 .header {
-    min-height: 20vh;
+    min-height: 100vh;
     width: 100%;
+    background-position: center;
+    background-size: cover;
     position: relative;
+    background-image:/*linear-gradient(#7d86833a, #52665e59) ,*/url(images/1.jpg);
+
 }
+
 nav{
 	display:flex;
 	padding:2% 6%;
@@ -22,18 +27,20 @@ nav{
 nav .logo {
     text-decoration: none;
     font-size: 50px;
-    color:#0e7563;;
+    color: #14913bd8;
+    font-size: 50px;
+    color: #0e7563;
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: #fff;
-
+    background: #fff0;
 }
+
 nav .fab{
     font-size: 42px;
     color: #0e7536;
+    background: #fff0;
 }
-
 
 .nav-links{   
     text-align: right;
@@ -41,48 +48,49 @@ nav .fab{
     flex: 1;
 }
 
+
 .nav-links ul li{
-    display:inline-block;
-    list-style:none;
-    padding:8px 12px;
-    position: relative;
-    text-transform: uppercase;
- }
- .nav-links ul li a{
-    text-decoration: none;
-    color:#26723d;
-    font-size: 18px;
- }
- .nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background:  #26723d;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
- }
- .nav-links ul li:hover::after {
-    width: 100%;
+   display:inline-block;
+   list-style:none;
+   padding:8px 12px;
+   position: relative;
+   text-transform: uppercase;
 }
-nav .fa{
-    display: none;
+.nav-links ul li a{
+   text-decoration: none;
+   color: #125c28;
+   font-size: 20px;
+}
+.nav-links ul li::after {
+   content: '';
+   width: 0%;
+   height: 2px;
+   background:  #3e8b56;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
 }
 .text_box {
 	width: 90%;
-	color: #fff;
+	color: #222629;
 	position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 30px;
+    font-size: 40px;
     
 }
 .text_box h2 {
     font-size: 90px;
     font-weight: 900;
     color: #215934;
+    color:  #14913bd8;
+
 }
 .text_box #headtext {
     font-size: 42px;
@@ -97,79 +105,81 @@ nav .fa{
     font-size: 40px;
     color: #215926;
     font-weight: 510px;
+    color:  #63cc83ce;
+}
+.text_box p {
+    margin: 10px 0 40px;
+    color: #000000;
+    font-weight: 1000px;
+    font-size: 20px;
 }
 
 .hero_btn {
     position: relative;
     display: inline-block;
-    color: #000;
+    color:  #000;
     border: 1px solid #26723d;
     border-radius: 5px;
     padding: 12px 34px;
-    font-weight: 200px;
-    font-size: 15px;
+    font-weight: 100px;
+    font-size: 20px;
     background: transparent;
     cursor: pointer;
     text-decoration: none;
 }
 .hero_btn:hover{
     border:1px soild #5cbb96;
-    background: #63cc83ce;
+    background:#63cc83ce;
     transition: 1s;
 }
 
-
-/*Responsive Navbar Start*/
+nav .fa{
+     display: none;
+ }
+ /*Responsive Navbar Start*/
  @media(max-width :700px ){
 
 
-    .text_box h2{
+     .text_box h2{
 
-    font-size: 50px;
-}
-nav.logo{
-    font-size: 30px;
-}
-.text_box #headtext{
-    font-size: 23px;
-}
-.text_box p{
-    margin: 10px 40px;
-    font-size: 15px;
-}
-.nav-links ul li{
-    display :  block;
-}
-.nav-links{
-    position:fixed;
-    background:#5cbb96;
-    height:100vh;
-    width:200px;
-    top:0;
-    right:-200px;
-    text-align:left;
-    z-index:2;
-    transition:1.2s;
+     font-size: 50px;
+ }
+ nav.logo{
+     font-size:13px;
+ }
+ .text_box #headtext{
+     font-size: 23px;
+ }
+ .text_box p{
+     margin: 10px 40px;
+     font-size: 15px;
+ }
+ .nav-links ul li{
+     display :  block;
+ }
+ .nav-links{
+     position:fixed;
+     background:#5cbb96;
+     height:100vh;
+     width:200px;
+     top:0;
+     right:-200px;
+     text-align:left;
+     z-index:2;
+     transition:1.2s;
 
-}
-nav .fa{
-    display:block;
-    color:#0e7536;
-    margin: 10px;
-    font-size:22px;
-    cursor:pointer;
-}
-.nav-links ul{
-    padding : 30px;
-    }
-.h1 {
-    font-size: 50px;
-    font-weight: 300;
-    margin: center;
-    line-height: 50px;
-}
-
-}
+ }
+ nav .fa{
+     display:block;
+     color: #26723d;
+     margin: 10px;
+     font-size:22px;
+     cursor:pointer;
+ }
+ .nav-links ul{
+     padding : 30px;
+     }
+ }
 /* Responsive Navbar Section End.... */
 
 /* About  Section Start */
