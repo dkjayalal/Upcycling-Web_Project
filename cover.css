@@ -6,14 +6,14 @@
 
 .banner {
     width: 100%;
-    height: 125vh;
+    height: 133vh;
     position: relative;
     overflow: hidden;
 }
 
 .slider {
     width: 100%;
-    height: 125vh;
+    height: 133vh;
     position: absolute;
     top: 0;
 
@@ -43,7 +43,7 @@
 
 .overlay{
     width: 100%;
-    height: 125vh;
+    height: 133vh;
     /*background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));*/
     position: absolute;
     top: 0;
