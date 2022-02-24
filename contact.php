@@ -28,7 +28,7 @@
 </body>
 </html>
 
-<!--login page
+<!--login page started using php-->
 
 <?php
 
