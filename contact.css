@@ -391,7 +391,7 @@ textarea:focus {
 
 a {
     color: #828282;
-    font-style: : 'Poppins ';
+    font-style: 'Poppins'  ,sans-serif;
 }
 /*
 a:hover {
