@@ -149,7 +149,7 @@ nav .fa{
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 700;
-    color: rgb(7, 145, 25);
+    color: rgb(35 97 68);
 
 } 
 
@@ -313,8 +313,7 @@ nav .fa{
 
 /*php part start*/
 h1 {
-    font-family: 'Playfair Display',
-        serif;
+    font-family: sans-serif;
     font-size: 59px;
     color: white;
     font-weight: 600;
@@ -409,6 +408,10 @@ a:hover {
     text-align: center;
     padding: 30px 0;
     color: #222629;
+}
+
+.footer p{
+    color: #222629
 }
 
 .footer h4 {
