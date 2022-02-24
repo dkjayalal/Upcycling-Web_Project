@@ -10,11 +10,10 @@ section{
 .header {
     min-height: 100vh;
     width: 100%;
-    /*background:linear-gradient(#a0675c,#5c261d) ,url(images/back.jpg);*/
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image:/*linear-gradient(#7d86833a, #52665e59) ,*/url(images/1.jpg);
+    background-image:linear-gradient(#b8d9c8, #ffffff4b) ,url(images/1.jpg);
 
 }
 
@@ -45,7 +44,6 @@ nav .fab{
 
 .nav-links{   
     text-align: right;
-   
     flex: 1;
 }
 
@@ -192,7 +190,7 @@ nav .fa{
 .verticalLine{
     width: 4px;
     height: 150px;
-    background: #000000b9;
+    background: #413d3dd5;
     margin: 0 auto 40px;
 }
 
@@ -210,7 +208,7 @@ h1{
 }
 
 p{
-    color: #455c4b;
+    color: #458a57;
     font-size: 18px;
     font-weight: 3800;
     line-height: 22px;
@@ -364,6 +362,7 @@ p{
     margin-top: 16px;
     margin-bottom: 15px;
     font-size: 20px;
+    color: #413d3dd5;
 }
 
 /*opprtunities section end*/
@@ -407,6 +406,7 @@ p{
 .testimonials-col h3{
     margin-top: 15px;
     text-align: left;
+    color: #222629;
 }
 
 .testimonials-col .fa{
@@ -474,6 +474,7 @@ p{
     font-weight: 600;
     margin-bottom: 25px;
     margin-top: 20px;
+    color: #413d3dd5;
 }
 
 .footer a {
@@ -502,7 +503,7 @@ p{
 }
 
 hr {
-    border: 0.01px solid;
+    border: 0.01px solid #413d3dd5;
 }
 
 /* Footer Section End */
@@ -578,6 +579,7 @@ hr {
     margin-top: 16px;
     margin-bottom: 15px;
     margin-left: 10px;
+    color: #222629;
 }
 
 .sdg_goal p{

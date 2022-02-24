@@ -470,12 +470,14 @@ nav .fa{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    color: #413d3dd5;
 }
 
 .footer h4 {
     font-weight: 600;
     margin-bottom: 25px;
     margin-top: 20px;
+    color: #413d3dd5;
 }
 
 .footer a {

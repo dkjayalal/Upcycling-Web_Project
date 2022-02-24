@@ -94,13 +94,14 @@
     font-size: 1.3em;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #413d3dd5;
 }
 
 .container .card .contentBx .content p{
     font-size: 1em;
     line-height: 1.4em;
     font-weight: 400;
-    color: black;
+    color: #413d3dd5;
 }
 
 @media(max-width: 1000px){
