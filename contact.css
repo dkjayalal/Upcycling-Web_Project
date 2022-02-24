@@ -313,7 +313,7 @@ nav .fa{
 
 /*php part start*/
 h1 {
-    font-family: sans-serif;
+    font-family: 'Poppins ', sans-serif;
     font-size: 59px;
     color: white;
     font-weight: 600;
@@ -391,9 +391,9 @@ textarea:focus {
 
 a {
     color: #828282;
-    font-style: italic;
+    font-style: : 'Poppins ';
 }
-
+/*
 a:hover {
     color: rgb(14, 8, 8);
 }
